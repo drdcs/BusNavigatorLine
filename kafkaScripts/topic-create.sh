@@ -1,0 +1,1 @@
+$KAFKA_HOME/bin/kafka-topics --create --zookeeper localhost:9092 --topic busline --partitions 3 --replication-factor 1 --config segment.bytes=1000000
